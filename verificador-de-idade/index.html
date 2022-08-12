@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><strong>Verificador de Idade</strong></h1>
+
+    </header>
+    <section>
+        <div> <p>Ano de Nascimento:
+                <input type="number" name="txtando" id="txtano" min="0">
+              </p>
+              <p>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas"><strong>Masculino</strong></label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem"><strong>Feminino</strong></label>
+             </p>
+             <P>
+                <input type="button" value="verificar" onclick="verificar()">
+             </P>
+            
+        </div>
+        <div id="res">
+            preencha os dados acima 
+            
+        </div>
+        <div>
+            <img id="imagem" src="homem.jpg" alt="fotohomem">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Renan LTDA</p>
+    </footer>
+    <script src="scriptteste.js"></script>
+</body>
+</html>
